@@ -856,11 +856,11 @@ private extension PanModalPresentationController {
         // Set path as a mask to display optional drag indicator view & rounded corners
         let mask = CAShapeLayer()
         mask.path = path.cgPath
-        view.layer.mask = mask
+//        view.layer.mask = mask
 
         // Improve performance by rasterizing the layer
-        view.layer.shouldRasterize = true
-        view.layer.rasterizationScale = UIScreen.main.scale
+//        view.layer.shouldRasterize = true
+//        view.layer.rasterizationScale = UIScreen.main.scale
     }
 
     /**
